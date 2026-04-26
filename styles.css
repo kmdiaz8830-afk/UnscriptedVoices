@@ -1,0 +1,83 @@
+.navbar {
+    background-color: #9B7BA8;
+    padding: 15px;
+    color: white;
+}
+
+header {
+    background-color: #B8A5C7;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #6B8E71;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.button {
+    background-color: #A4C495;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+form {
+    background-color: #F5F1E8;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.chat-rooms {
+    background-color: #E7E3E7;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.crisis-banner {
+    background-color: #D95D5D;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.resources {
+    background-color: #E9E2D0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.quick-exit {
+    background-color: #C94D3B;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .navbar, header, footer {
+        padding: 10px;
+    }
+    .button {
+        padding: 8px 16px;
+    }
+    form, .chat-rooms, .resources {
+        padding: 10px;
+    }
+}
